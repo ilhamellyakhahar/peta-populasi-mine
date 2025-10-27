@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: populasiapp-ingress
+  name: populasi-app-ingress
   namespace: researchilham
   annotations:
     # acme.cert-manager.io/http01-edit-in-place: "true"
@@ -23,10 +23,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - "ilham.research.nawnest.my.id"
-      secretName: populasi-tls
+        - "gis.research.mine.my.id"
+      secretName: populasiapp-tls
   rules:
-  - host: ilham.research.nawnest.my.id
+  - host: gis.research.mine.my.id
     http:
       paths:
       - path: /
