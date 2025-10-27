@@ -23,10 +23,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - "gis.mine.my.id"
+        - "ilham.research.nawnest.my.id"
       secretName: populasi-tls
   rules:
-  - host: gis.mine.my.id
+  - host: ilham.research.nawnest.my.id
     http:
       paths:
       - path: /
