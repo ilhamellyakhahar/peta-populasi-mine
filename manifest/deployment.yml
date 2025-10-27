@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: peta-populasi-container
-        image: ilhamellya/gismine:471ee3b
+        image: ilhamellya/gismine:90a017a
         ports:
         - containerPort: 5000
         resources:
