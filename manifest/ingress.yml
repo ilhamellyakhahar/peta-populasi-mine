@@ -24,7 +24,7 @@ spec:
   tls:
     - hosts:
         - "gis.research.mine.my.id"
-      secretName: populasiapp-tls
+      secretName: populasi-app-tls
   rules:
   - host: gis.research.mine.my.id
     http:
