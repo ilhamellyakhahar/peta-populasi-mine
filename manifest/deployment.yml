@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: peta-populasi-container
-        image: your-dockerhub-username/peta-populasi:latest
+        image: ilhamellya/gismine:2e51816
         ports:
         - containerPort: 5000
         resources:
