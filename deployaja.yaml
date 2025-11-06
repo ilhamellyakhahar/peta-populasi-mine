@@ -1,0 +1,37 @@
+name: gismine
+description: Web GIS Mine
+container:
+    image: ilhamellya/gismine:latest
+    port: 5000
+resources:
+    cpu: 250m
+    memory: 256Mi
+    replicas: 1
+# dependencies:
+#     - name: postgresql
+#       type: postgresql
+#       version: "15"
+#       storage: 1Gi
+# env:
+#     - name: NODE_ENV
+#       value: production
+#       userManaged: false
+#     - name: LOG_LEVEL
+#       value: info
+#       userManaged: false
+#     - name: CACHE_TTL
+#       value: "3600"
+#       userManaged: false
+#     - name: MAX_CONNECTIONS
+#       value: "1000"
+#       userManaged: false
+# healthCheck:
+#     path: /api/health
+#     port: 8080
+#     initialDelaySeconds: 60
+#     periodSeconds: 30
+domain: gis.research.mine.my.id
+# volumes:
+#     - name: app-storage
+#       size: 1Gi
+#       mountPath: /usr/share/nginx/html
